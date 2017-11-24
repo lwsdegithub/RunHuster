@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <com.heima.tabview.library.TabView
         android:id="@+id/tabView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:tab_textViewSelColor="@color/tabViewTextSel"
+        app:tab_textViewUnSelColor="@color/tabViewTextUnSel"
+        app:tab_tabViewBackgroundColor="@color/tabViewBg"
+        app:imageViewTextViewMargin="2dip"
+        app:tab_imageViewHeight="27dip"
+        app:tab_imageViewWidth="28dip"
+        app:tab_tabViewDefaultPosition="0"
+        app:tab_tabViewHeight="52dip"
+        app:tab_textViewSize="9sp"
+        >
     </com.heima.tabview.library.TabView>
 </LinearLayout>

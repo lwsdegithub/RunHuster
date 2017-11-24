@@ -52,20 +52,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tabViewChildList.add(tabViewChild03);
         tabViewChildList.add(tabViewChild04);
         tabView.setTabViewChild(tabViewChildList,getSupportFragmentManager());
-        setUpTabView();
-    }
-
-    /**
-     * 做底部导航栏的一些设置
-     */
-    private void setUpTabView(){
-        tabView.setTabViewBackgroundColor(R.color.tabViewBg);
-        tabView.setTextViewSelectedColor(R.color.tabViewTextSel);
-        tabView.setTextViewUnSelectedColor(R.color.tabViewTextUnSel);
-        tabView.setTextViewSize(9);
     }
     @Override
     public void onClick(View view) {
-
     }
 }

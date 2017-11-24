@@ -1,9 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
     android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView
-        android:text="个人信息"
+    <LinearLayout
+        android:background="@color/tabViewBg"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-</RelativeLayout>
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/person"
+            android:layout_width="117dp"
+            android:layout_height="117dp" />
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/rectangle_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24sp" />
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_marginTop="16dp"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    android:text="Tablature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="16dp"
+                android:text="我运动，我快乐！"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/runTimes"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="30dp"
+                android:text="本周已运动6小时"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginTop="31dp"
+                    android:src="@drawable/rectangle_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24sp" />
+                <TextView
+                    android:textColor="#8b49c9"
+                    android:textSize="15sp"
+                    android:layout_marginTop="31dp"
+                    android:text="最高纪录"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:textColor="#8e77a3"
+                android:textSize="18sp"
+                android:text="50米（男）：6.9s"
+                android:layout_marginTop="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#ae3390"
+            android:textSize="31sp"
+            android:text="90分"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginTop="31dp"
+                    android:src="@drawable/rectangle_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24sp" />
+                <TextView
+                    android:textColor="#8b49c9"
+                    android:textSize="15sp"
+                    android:layout_marginTop="31dp"
+                    android:text="攻关科目"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:textColor="#8e77a3"
+                android:textSize="18sp"
+                android:text="立定跳远（男）：2.1m"
+                android:layout_marginTop="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#ae3390"
+            android:textSize="31sp"
+            android:text="62分"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginTop="31dp"
+                    android:src="@drawable/rectangle_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24sp" />
+                <TextView
+                    android:textColor="#8b49c9"
+                    android:textSize="15sp"
+                    android:layout_marginTop="31dp"
+                    android:text="今日锻炼"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:textColor="#8e77a3"
+                android:textSize="18sp"
+                android:text="运动时长（男）：50min"
+                android:layout_marginTop="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#ae3390"
+            android:textSize="31sp"
+            android:text="90分"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <Button
+        android:textColor="#ffffff"
+        android:text="开始锻炼"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:layout_width="279dp"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/select_button"
+            android:layout_width="23dp"
+            android:layout_height="23dp" />
+        <TextView
+            android:textColor="#6b6b6b"
+            android:layout_marginLeft="13dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="12sp"
+            android:text="运动满半个小时后提醒我至附近体育考勤机打卡"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
