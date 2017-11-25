@@ -18,7 +18,7 @@ import com.example.run.R;
 public class ScoresCalFragment extends Fragment implements View.OnClickListener {
     private TextView congratulationsSentence;
     private TextView theScoreIsGoodOrBad;
-    private TextView thePhysicalSCF;
+    private TextView thePhysicalScoresInSCF;
     private TextView theGradeInSCF;
     private ImageView theUpArrow;
     private TextView theLongRunTimeInSCF;
@@ -49,7 +49,7 @@ public class ScoresCalFragment extends Fragment implements View.OnClickListener 
     private void initView(){
         congratulationsSentence = (TextView)mainView.findViewById(R.id.congratulationsSentence);
         theScoreIsGoodOrBad = (TextView) mainView.findViewById(R.id.theScoreIsGoodOrBad);
-        thePhysicalSCF = (TextView) mainView.findViewById(R.id.thePhysicalSCF);
+        thePhysicalScoresInSCF = (TextView) mainView.findViewById(R.id.thePhysicalScoresInSCF);
         theGradeInSCF = (TextView) mainView.findViewById(R.id.theGradeInSCF);
         theUpArrow = (ImageView) mainView.findViewById(R.id.theUpArrow);
         theLongRunTimeInSCF = (TextView) mainView.findViewById(R.id.theLongRunTimeInSCF);
