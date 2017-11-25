@@ -17,6 +17,7 @@ import com.example.run.R;
  * 个人信息fragment
  */
 public class PersonalInformationFragment extends Fragment implements View.OnClickListener {
+    private ImageView userHead;
     private TextView userName;
     private TextView encourageSentence;
     private TextView runTimes;
@@ -36,11 +37,11 @@ public class PersonalInformationFragment extends Fragment implements View.OnClic
         initView();
         return mainView;
     }
-
     /**
      * 绑定控件
      */
     private void initView(){
+        userHead = (ImageView) mainView.findViewById(R.id.userHead);
         userName = (TextView) mainView.findViewById(R.id.userName);
         encourageSentence = (TextView) mainView.findViewById(R.id.encourageSentence);
         runTimes = (TextView)  mainView.findViewById(R.id.runTimes);

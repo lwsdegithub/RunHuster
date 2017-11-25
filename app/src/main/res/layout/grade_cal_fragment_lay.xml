@@ -39,6 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <TextView
+                    android:id="@+id/congratulationsSentence"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="20dp"
                     android:textColor="#4e229e"
@@ -47,6 +48,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <TextView
+                    android:id="@+id/theScoreIsGoodOrBad"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
                     android:textColor="#4e229e"
@@ -62,6 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <TextView
+                    android:id="@+id/thePhysicalSCF"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
@@ -70,6 +73,7 @@
                     android:textColor="#4e229e"
                     android:textSize="45sp" />
                 <TextView
+                    android:id="@+id/theGradeInSCF"
                     android:gravity="right"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="2dp"
@@ -80,6 +84,7 @@
                     android:layout_height="wrap_content" />
             </LinearLayout>
             <ImageView
+                android:id="@+id/theUpArrow"
                 android:src="@drawable/up_arrow"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="15dp"
@@ -114,6 +119,7 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/theLongRunTimeInSCF"
                     android:layout_marginLeft="15dp"
                     android:textColor="#8e77a3"
                     android:textSize="16sp"
@@ -135,6 +141,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
                 <TextView
+                    android:id="@+id/theLongRunScoresInSCF"
                     android:gravity="right"
                     android:textColor="#ae3390"
                     android:textSize="21sp"
@@ -170,6 +177,7 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/theShortRunTimeInSCF"
                     android:layout_marginLeft="15dp"
                     android:textColor="#8e77a3"
                     android:textSize="16sp"
@@ -191,6 +199,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
                 <TextView
+                    android:id="@+id/theShortRunScoresInSCF"
                     android:gravity="right"
                     android:textColor="#ae3390"
                     android:textSize="21sp"
@@ -226,6 +235,7 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/theJumpInSCF"
                     android:layout_marginLeft="15dp"
                     android:textColor="#8e77a3"
                     android:textSize="16sp"
@@ -247,6 +257,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
                 <TextView
+                    android:id="@+id/theJumpScoresInSCF"
                     android:gravity="right"
                     android:textColor="#ae3390"
                     android:textSize="21sp"
@@ -282,6 +293,7 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/theLungInSCF"
                     android:layout_marginLeft="15dp"
                     android:textColor="#8e77a3"
                     android:textSize="16sp"
@@ -303,6 +315,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
                 <TextView
+                    android:id="@+id/theLungScoresInSCF"
                     android:gravity="right"
                     android:textColor="#ae3390"
                     android:textSize="21sp"
@@ -338,6 +351,7 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/theChinningInSCF"
                     android:layout_marginLeft="15dp"
                     android:textColor="#8e77a3"
                     android:textSize="16sp"
@@ -359,6 +373,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
                 <TextView
+                    android:id="@+id/theChinningScoresInSCF"
                     android:gravity="right"
                     android:textColor="#ae3390"
                     android:textSize="21sp"
@@ -394,6 +409,7 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/theSitAndReachInSCF"
                     android:layout_marginLeft="15dp"
                     android:textColor="#8e77a3"
                     android:textSize="16sp"
@@ -415,6 +431,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
                 <TextView
+                    android:id="@+id/theSitAndReachScoresInSCF"
                     android:gravity="right"
                     android:textColor="#ae3390"
                     android:textSize="21sp"
@@ -450,6 +467,7 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/theBMIInSCF"
                     android:layout_marginLeft="15dp"
                     android:textColor="#8e77a3"
                     android:textSize="16sp"
@@ -471,6 +489,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
                 <TextView
+                    android:id="@+id/theBMIScoresInSCF"
                     android:gravity="right"
                     android:textColor="#ae3390"
                     android:textSize="21sp"
@@ -486,6 +505,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/saveScoreInSCF"
                 android:textColor="#ffffff"
                 android:gravity="center"
                 android:text="保存成绩"
@@ -496,6 +516,7 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp" />
             <TextView
+                android:id="@+id/shareMeInSCF"
                 android:textColor="#ffffff"
                 android:gravity="center"
                 android:text="社交分享"

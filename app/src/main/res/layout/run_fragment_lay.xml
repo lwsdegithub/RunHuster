@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="24sp" />
         <TextView
+            android:id="@+id/exercisePlace"
             android:textColor="#ffffff"
             android:textSize="16sp"
             android:layout_marginLeft="10dp"
@@ -59,6 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <ImageView
+            android:id="@+id/progressImage"
             android:layout_centerHorizontal="true"
             android:src="@drawable/progress_bar_small"
             android:layout_width="100dp"
@@ -72,6 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
+            android:id="@+id/runMileage"
             android:textSize="60sp"
             android:textColor="#8b49c9"
             android:text="1.8"
@@ -93,6 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/runTimeInRunFragment"
                 android:textSize="20sp"
                 android:textColor="#8b49c9"
                 android:text="6:55"
@@ -112,6 +116,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/speed"
                 android:gravity="right"
                 android:textSize="20sp"
                 android:textColor="#8b49c9"
@@ -137,6 +142,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/calorie"
                 android:textSize="20sp"
                 android:textColor="#8b49c9"
                 android:text="120.5"
@@ -156,6 +162,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/expectedGrade"
                 android:gravity="right"
                 android:textSize="20sp"
                 android:textColor="#8b49c9"
@@ -198,7 +205,7 @@
                     android:layout_height="wrap_content" />
             </LinearLayout>
             <TextView
-                android:id="@+id/theWeakness"
+                android:id="@+id/projectIsDoing"
                 android:layout_marginLeft="15dp"
                 android:textColor="#8e77a3"
                 android:textSize="18sp"
@@ -222,6 +229,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
             <TextView
+                android:id="@+id/historyGrade"
                 android:textColor="#ae3390"
                 android:text="75分"
                 android:textSize="31sp"
@@ -231,6 +239,7 @@
         </LinearLayout>
     </RelativeLayout>
     <TextView
+        android:id="@+id/saveRecord"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:gravity="center"
