@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         runFragment=new RunFragment();
         gradeCalFragment=new GradeCalFragment();
         chartFragment=new ChartFragment();
-        TabViewChild tabViewChild01=new TabViewChild(R.drawable.personal_information_tab_image_sel,R.drawable.location_marker,"个人信息",personalInformationFragment);
-        TabViewChild tabViewChild02=new TabViewChild(R.drawable.location_marker,R.drawable.run_tab_image_unsel,"锻炼界面",runFragment);
+        TabViewChild tabViewChild01=new TabViewChild(R.drawable.personal_information_tab_image_sel,R.drawable.personal_information_tab_image_unsel,"个人信息",personalInformationFragment);
+        TabViewChild tabViewChild02=new TabViewChild(R.drawable.run_tab_image_sel,R.drawable.run_tab_image_unsel,"锻炼界面",runFragment);
         TabViewChild tabViewChild03=new TabViewChild(R.drawable.location_marker,R.drawable.grade_cal_tab_image_unsel,"成绩计算",gradeCalFragment);
         TabViewChild tabViewChild04=new TabViewChild(R.drawable.location_marker,R.drawable.chart_tab_iamge_unsel,"变化曲线",chartFragment);
         tabViewChildList.add(tabViewChild01);
