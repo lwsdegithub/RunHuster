@@ -20,6 +20,7 @@ import java.util.List;
 
 /**
  * Created by 李维升 on 2017/11/24.
+ * 主界面
  */
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         init();
     }
 
+    /**
+     * 这里初始化tabView，实现tabView绑定Fragment，具体样式设置在main_activity_lay.xml静态设置
+     */
     private void init(){
         tabView=findViewById(R.id.tabView);
         personalInformationFragment=new PersonalInformationFragment();
