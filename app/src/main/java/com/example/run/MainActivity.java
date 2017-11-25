@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TabViewChild tabViewChild01=new TabViewChild(R.drawable.personal_information_tab_image_sel,R.drawable.personal_information_tab_image_unsel,"个人信息",personalInformationFragment);
         TabViewChild tabViewChild02=new TabViewChild(R.drawable.run_tab_image_sel,R.drawable.run_tab_image_unsel,"锻炼界面",runFragment);
         TabViewChild tabViewChild03=new TabViewChild(R.drawable.scores_cal_tab_image_sel,R.drawable.scores_cal_tab_image_unsel,"成绩计算", scoresCalFragment);
-        TabViewChild tabViewChild04=new TabViewChild(R.drawable.location_marker,R.drawable.chart_tab_iamge_unsel,"变化曲线",chartFragment);
+        TabViewChild tabViewChild04=new TabViewChild(R.drawable.chart_tab_image_sel,R.drawable.chart_tab_iamge_unsel,"变化曲线",chartFragment);
         tabViewChildList.add(tabViewChild01);
         tabViewChildList.add(tabViewChild02);
         tabViewChildList.add(tabViewChild03);

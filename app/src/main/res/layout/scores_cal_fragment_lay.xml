@@ -12,6 +12,7 @@
             android:layout_width="match_parent"
             android:layout_height="120dp">
             <ImageView
+                android:id="@+id/userHeadInSCF"
                 android:src="@drawable/person"
                 android:layout_marginLeft="23dp"
                 android:layout_gravity="center_vertical"
@@ -509,7 +510,7 @@
                 android:textColor="#ffffff"
                 android:gravity="center"
                 android:text="保存成绩"
-                android:layout_marginLeft="45dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/button_background"
                 android:layout_weight="1"
@@ -521,7 +522,7 @@
                 android:gravity="center"
                 android:text="社交分享"
                 android:layout_marginLeft="20dp"
-                android:layout_marginRight="45dp"
+                android:layout_marginRight="30dp"
                 android:background="@drawable/button_background"
                 android:layout_weight="1"
                 android:layout_width="0dp"
