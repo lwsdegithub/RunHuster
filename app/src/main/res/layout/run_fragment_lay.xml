@@ -1,9 +1,242 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
     android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView
-        android:text="锻炼"
+    <LinearLayout
+        android:background="@drawable/rectangle_horizontal"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-</RelativeLayout>
+        android:layout_height="40sp">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/rectangle_vertical_small"
+            android:layout_width="wrap_content"
+            android:layout_height="24sp" />
+        <TextView
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:text="华中科技大学东校区田径场"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:src="@drawable/exercise_place"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="136dp" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="33dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/rectangle_vertical_small"
+            android:layout_width="wrap_content"
+            android:layout_height="21sp" />
+        <TextView
+            android:textColor="#8b49c9"
+            android:textSize="15sp"
+            android:layout_marginLeft="7dp"
+            android:layout_gravity="center_vertical"
+            android:text="完成进度"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_width="wrap_content"
+        android:layout_height="7dp">
+        <ImageView
+            android:src="@drawable/progress_bar_large"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/progress_bar_small"
+            android:layout_width="100dp"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="60sp"
+            android:textColor="#8b49c9"
+            android:text="1.8"
+            android:layout_width="wrap_content"
+            android:layout_height="73sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="距离（公里）"
+            android:textColor="#9586a4" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="35dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#8b49c9"
+                android:text="6:55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="16sp"
+                android:textColor="#9586a4"
+                android:text="分：秒"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginRight="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="right"
+                android:textSize="20sp"
+                android:textColor="#8b49c9"
+                android:text="3'55'"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="right"
+                android:textSize="16sp"
+                android:textColor="#9586a4"
+                android:text="配速"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="35dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#8b49c9"
+                android:text="120.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="16sp"
+                android:textColor="#9586a4"
+                android:text="能量（大卡）"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginRight="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="right"
+                android:textSize="20sp"
+                android:textColor="#8b49c9"
+                android:text="76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="right"
+                android:textSize="16sp"
+                android:textColor="#9586a4"
+                android:text="预计分数"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/rectangle_vertical_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24sp" />
+                <TextView
+                    android:textColor="#8b49c9"
+                    android:textSize="15sp"
+                    android:layout_marginTop="16dp"
+                    android:text="正在进行"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/theWeakness"
+                android:layout_marginLeft="15dp"
+                android:textColor="#8e77a3"
+                android:textSize="18sp"
+                android:text="2400米（男）"
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginRight="33dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="16dp"
+                android:gravity="right"
+                android:textColor="#8b49c9"
+                android:textSize="15sp"
+                android:text="历史得分"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textColor="#ae3390"
+                android:text="75分"
+                android:textSize="31sp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="保存记录"
+        android:background="@drawable/button_background"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="279dp"
+        android:layout_height="40dp" />
+</LinearLayout>

@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.main_activity_lay);
         init();
     }
-
     /**
      * 这里初始化tabView，实现tabView绑定Fragment，具体样式设置在main_activity_lay.xml静态设置
      */
