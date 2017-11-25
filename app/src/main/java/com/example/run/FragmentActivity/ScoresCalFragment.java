@@ -15,7 +15,7 @@ import com.example.run.R;
  * Created by 李维升 on 2017/11/24.
  */
 
-public class GradeCalFragment extends Fragment implements View.OnClickListener {
+public class ScoresCalFragment extends Fragment implements View.OnClickListener {
     private TextView congratulationsSentence;
     private TextView theScoreIsGoodOrBad;
     private TextView thePhysicalSCF;
@@ -42,7 +42,7 @@ public class GradeCalFragment extends Fragment implements View.OnClickListener {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        mainView = inflater.inflate(R.layout.grade_cal_fragment_lay, container, false);
+        mainView = inflater.inflate(R.layout.scores_cal_fragment_lay, container, false);
         initView();
         return mainView;
     }

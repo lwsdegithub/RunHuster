@@ -1,17 +1,14 @@
 package com.example.run;
 
-import android.app.ActionBar;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.run.FragmentActivity.ChartFragment;
-import com.example.run.FragmentActivity.GradeCalFragment;
+import com.example.run.FragmentActivity.ScoresCalFragment;
 import com.example.run.FragmentActivity.PersonalInformationFragment;
 import com.example.run.FragmentActivity.RunFragment;
-import com.example.run.R;
 import com.heima.tabview.library.TabView;
 import com.heima.tabview.library.TabViewChild;
 
@@ -26,7 +23,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private PersonalInformationFragment personalInformationFragment;
     private RunFragment runFragment;
-    private GradeCalFragment gradeCalFragment;
+    private ScoresCalFragment scoresCalFragment;
     private ChartFragment chartFragment;
     private List<TabViewChild> tabViewChildList=new ArrayList<>();
     private TabView tabView;
@@ -44,11 +41,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tabView=findViewById(R.id.tabView);
         personalInformationFragment=new PersonalInformationFragment();
         runFragment=new RunFragment();
-        gradeCalFragment=new GradeCalFragment();
+        scoresCalFragment =new ScoresCalFragment();
         chartFragment=new ChartFragment();
         TabViewChild tabViewChild01=new TabViewChild(R.drawable.personal_information_tab_image_sel,R.drawable.personal_information_tab_image_unsel,"个人信息",personalInformationFragment);
         TabViewChild tabViewChild02=new TabViewChild(R.drawable.run_tab_image_sel,R.drawable.run_tab_image_unsel,"锻炼界面",runFragment);
-        TabViewChild tabViewChild03=new TabViewChild(R.drawable.grade_cal_tab_image_sel,R.drawable.grade_cal_tab_image_unsel,"成绩计算",gradeCalFragment);
+        TabViewChild tabViewChild03=new TabViewChild(R.drawable.scores_cal_tab_image_sel,R.drawable.scores_cal_tab_image_unsel,"成绩计算", scoresCalFragment);
         TabViewChild tabViewChild04=new TabViewChild(R.drawable.location_marker,R.drawable.chart_tab_iamge_unsel,"变化曲线",chartFragment);
         tabViewChildList.add(tabViewChild01);
         tabViewChildList.add(tabViewChild02);
